@@ -10,8 +10,16 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var QuestionText: UILabel!
-    @IBOutlet weak var choice1Button: UIButton!
-    @IBOutlet weak var choice2Button: UIButton!
+    @IBOutlet weak var choice1Button: UIButton!{
+        didSet {
+            choice1Button.layer.cornerRadius = 20
+        }
+    }
+    @IBOutlet weak var choice2Button: UIButton!{
+        didSet {
+        choice2Button.layer.cornerRadius = 20
+    }
+}
     
     var questionBrain = QuestionBrain()
     
