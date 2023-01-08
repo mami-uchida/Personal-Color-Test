@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     
     @IBOutlet weak var QuestionText: UILabel!
     @IBOutlet weak var choice1Button: UIButton!{
@@ -23,12 +23,15 @@ class ViewController: UIViewController {
     
     var questionBrain = QuestionBrain()
     
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
     }
 
+
+    
     // メソッドはクラスの直下で定義します
     // prepareメソッドはUIViewControllerで定義されているので、override宣言で上書きします。
     override func prepare(for segue: UIStoryboardSegue, sender:Any?) {
@@ -66,8 +69,11 @@ class ViewController: UIViewController {
         
 
     func updateUI() {
+       
         QuestionText.text = questionBrain.getQuestionText()
         choice1Button.setTitle(questionBrain.getChoice1(), for: .normal)
         choice2Button.setTitle(questionBrain.getChoice2(), for: .normal)
     }
+    
+ 
 }

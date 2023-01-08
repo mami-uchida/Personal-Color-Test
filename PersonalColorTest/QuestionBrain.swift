@@ -45,6 +45,11 @@ struct QuestionBrain {
         return questions[questionNumber].destination2
     }
     
+    mutating func reset() {
+        questionNumber = 0
+        getTitle = ""
+        getText = ""
+    }
     
     
     mutating func nextQuestion(userChoice: String) -> () {

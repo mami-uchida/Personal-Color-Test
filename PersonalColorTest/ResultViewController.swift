@@ -8,12 +8,12 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    
+    var questionBrain = QuestionBrain()
     var getTitle: String = ""
     var getText: String = ""
     
   
-    
+
     @IBOutlet weak var resultTitle: UILabel!
     @IBOutlet weak var resultText: UILabel!
     
@@ -26,8 +26,9 @@ class ResultViewController: UIViewController {
     }
     
     @IBAction func backButtonPressed(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
-     
+        questionBrain.reset()
+        self.dismiss(animated: true,completion: nil)
+        }
     }
     
     /*
@@ -40,4 +41,4 @@ class ResultViewController: UIViewController {
     }
     */
 
-}
+
