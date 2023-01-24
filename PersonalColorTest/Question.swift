@@ -12,6 +12,6 @@ struct Question {
     var choice1: String
     var destination1: Int
     var choice2: String
-    var destination2: Int
+    var destination: Int
 }
 
