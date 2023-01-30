@@ -39,9 +39,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-0I-aqM" userLabel="choice 1 Button">
                                                 <rect key="frame" x="26" y="20" width="346" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <color key="backgroundColor" red="0.92406939079999995" green="0.5624100184319728" blue="0.62678054969251695" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="132165465465132165897961232132184984651" backgroundImage="長方形 1">
+                                                <state key="normal" title="132165465465132165897961232132184984651">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -51,9 +52,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Of0-x7-uBl" userLabel="choice 2 Button">
                                                 <rect key="frame" x="26" y="178" width="346" height="150"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <color key="backgroundColor" red="0.52867240649455782" green="0.73213259497482985" blue="0.72658922313605445" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="8949816516516132068419652615165498165165165" backgroundImage="長方形 2">
+                                                <state key="normal" title="8949816516516132068419652615165498165165165">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -184,6 +186,5 @@
     <resources>
         <image name="23212422" width="1600" height="1200"/>
         <image name="長方形 1" width="4099" height="1085"/>
-        <image name="長方形 2" width="4099" height="1085"/>
     </resources>
 </document>
