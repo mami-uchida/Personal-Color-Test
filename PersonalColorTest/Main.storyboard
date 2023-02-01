@@ -63,10 +63,6 @@
                                         </subviews>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="AfV-0t-c9o" firstAttribute="leading" secondItem="2Mp-P2-W2A" secondAttribute="leading" id="1dU-px-4Al"/>
-                                    <constraint firstItem="AfV-0t-c9o" firstAttribute="leading" secondItem="UzH-CW-xpN" secondAttribute="leadingMargin" id="5VG-qb-u5c"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
