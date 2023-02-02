@@ -107,18 +107,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ES8-bk-4OB">
-                                <rect key="frame" x="333" y="79" width="36" height="35"/>
+                                <rect key="frame" x="334" y="29" width="35" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="VPC-cY-20e"/>
-                                    <constraint firstAttribute="width" constant="36" id="YXx-Ee-lCZ"/>
+                                    <constraint firstAttribute="width" constant="35" id="YXx-Ee-lCZ"/>
                                     <constraint firstAttribute="height" constant="35" id="aJf-jw-Izo"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="36" id="iXb-If-xgA"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="36" id="t2O-xT-zvU"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="35" id="x8T-mK-IHP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="×" backgroundImage="長方形 1">
+                                <state key="normal" title="×">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -132,7 +128,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maC-RK-KhG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Result Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maC-RK-KhG">
                                 <rect key="frame" x="78.666666666666671" y="209" width="231.66666666666663" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -142,11 +138,8 @@
                                 <rect key="frame" x="20" y="289" width="349" height="370"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="349" id="GXT-wt-FKx"/>
-                                    <constraint firstAttribute="width" constant="331" id="bkG-56-EUN"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="nEq-42-BOe"/>
-                                    <constraint firstAttribute="height" constant="370" id="oHE-Zu-lyJ"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="z8N-cg-fH8"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="370" id="oHE-Zu-lyJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="24"/>
                                 <color key="textColor" red="0.097987808290000006" green="0.2282280028" blue="0.31186631320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -161,13 +154,11 @@
                             <constraint firstItem="6sr-YX-mte" firstAttribute="leading" secondItem="sxO-Ga-VU7" secondAttribute="leading" constant="40" id="O3e-zm-57p"/>
                             <constraint firstItem="zzb-3w-72Z" firstAttribute="top" secondItem="maC-RK-KhG" secondAttribute="bottom" constant="20" id="RzJ-c5-ecZ"/>
                             <constraint firstItem="sxO-Ga-VU7" firstAttribute="bottom" secondItem="zzb-3w-72Z" secondAttribute="bottom" constant="124" id="apw-Rr-lLP"/>
-                            <constraint firstItem="sxO-Ga-VU7" firstAttribute="trailing" secondItem="zzb-3w-72Z" secondAttribute="trailing" constant="20" id="bAv-TE-UdK"/>
                             <constraint firstItem="zzb-3w-72Z" firstAttribute="leading" secondItem="sxO-Ga-VU7" secondAttribute="leading" constant="20" id="bda-RL-gJa"/>
                             <constraint firstItem="maC-RK-KhG" firstAttribute="top" secondItem="sxO-Ga-VU7" secondAttribute="top" constant="150" id="ibx-Q8-JgC"/>
-                            <constraint firstItem="sxO-Ga-VU7" firstAttribute="trailing" secondItem="zzb-3w-72Z" secondAttribute="trailing" constant="20" id="kWT-ad-6SL"/>
                             <constraint firstItem="sxO-Ga-VU7" firstAttribute="trailing" secondItem="6sr-YX-mte" secondAttribute="trailing" constant="40" id="lWI-rp-L0y"/>
                             <constraint firstItem="6sr-YX-mte" firstAttribute="top" secondItem="sxO-Ga-VU7" secondAttribute="top" constant="110" id="mpf-rR-WGA"/>
-                            <constraint firstItem="ES8-bk-4OB" firstAttribute="top" secondItem="fBl-ft-aZV" secondAttribute="topMargin" constant="20" id="xoX-LP-ooN"/>
+                            <constraint firstItem="ES8-bk-4OB" firstAttribute="top" secondItem="fBl-ft-aZV" secondAttribute="topMargin" constant="-30" id="xoX-LP-ooN"/>
                             <constraint firstItem="maC-RK-KhG" firstAttribute="centerX" secondItem="fBl-ft-aZV" secondAttribute="centerX" id="yJA-9E-tNE"/>
                         </constraints>
                     </view>
@@ -185,6 +176,5 @@
     </scenes>
     <resources>
         <image name="23212422" width="1600" height="1200"/>
-        <image name="長方形 1" width="4099" height="1085"/>
     </resources>
 </document>
