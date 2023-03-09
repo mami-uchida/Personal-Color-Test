@@ -20,7 +20,7 @@ class ViewController: UIViewController {
             choice2Button.layer.cornerRadius = 20
         }
     }
-
+    
     
     var questionBrain = QuestionBrain()
     
@@ -28,44 +28,40 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
+        
+        
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        questionBrain.reset()
+    }
+    
+    
+    
+    
     // メソッドはクラスの直下で定義します
     // prepareメソッドはUIViewControllerで定義されているので、override宣言で上書きします。
     override func prepare(for segue: UIStoryboardSegue, sender:Any?) {
         if segue.identifier == "goToResult" {
             let destinationVC = segue.destination as! ResultViewController
-//            destinationVC.getTitle =  questionBrain.getResultTitle()
-//            destinationVC.getText = questionBrain.getResultText()
-            // getResultTitleとgetResultTextでエラーになるので仮の値を入れています。
-            // getResultTitleとgetResultTextの修正後
+            destinationVC.modalPresentationStyle = .fullScreen
             destinationVC.getTitle = questionBrain.getResultTitle()
             destinationVC.getText = questionBrain.getResultText()
         }
     }
-
+    
     @IBAction func choiceButtonSelected(_ sender: UIButton) {
         questionBrain.nextQuestion(userChoice: sender.currentTitle!)
-
+        
         // 条件式を簡略に
         if questionBrain.isFinished  {
             performSegue(withIdentifier: "goToResult", sender: self)
         } else {
             updateUI()
         }
-
-        /// メソッド(func)の中でのメソッドの定義は、基本的に行いません
-//        func prepare(for segue: UIStoryboardSegue, sender:Any?) {
-//            if segue.identifier == "goToResult" {
-//                let destinationVC = segue.destination as! ResultViewController
-//                destinationVC.getTitle =  questionBrain.getResultTitle()
-//                destinationVC.getText = questionBrain.getResultText()
-//
-//            }
-//        }
     }
-        
-
+    
+    
     func updateUI() {
         QuestionText.text = questionBrain.getQuestionText()
         choice1Button.setTitle(questionBrain.getChoice1(), for: .normal)
