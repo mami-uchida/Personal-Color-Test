@@ -44,7 +44,12 @@ struct QuestionBrain {
     func getDestination2() -> Int {
         return questions[questionNumber].destination2
     }
-    
+    //reset questionNumber、getTitle、getText
+    mutating func reset() {
+        _ = 0
+        _ = ""
+        _ = ""
+    }
     
     
     mutating func nextQuestion(userChoice: String) -> () {
@@ -61,14 +66,9 @@ struct QuestionBrain {
     var isFinished: Bool {
         return questionNumber + 1 >= questions.count
     }
+
     
-    //    func isFinished() -> Bool {
-    //        if  questionNumber + 1 < questions.count {
-    //            return true
-    //        } else {
-    //            return false
-    //        }
-    //    }
+    
     var getTitle = ""
     var getText = ""
     
