@@ -46,9 +46,9 @@ struct QuestionBrain {
     }
     //reset questionNumber、getTitle、getText
     mutating func reset() {
-        _ = 0
-        _ = ""
-        _ = ""
+        questionNumber = 0
+        getTitle = ""
+        getText = ""
     }
     
     
