@@ -9,7 +9,7 @@
 
 ## 環境構築
 1.　リポジトリをclone
-- git clone 
+- git clone https://github.com/mami-uchida/Personal-Color-Test.git
   
 
 ## 開発情報
