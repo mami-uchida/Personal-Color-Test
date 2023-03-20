@@ -5,7 +5,8 @@
 <p4> 皮膚や髪質に関する質問を経て、「ブルベ」」「イエベ」等のパーソナルカラーを診断するアプリです。
 
 ## デモ画面
-![20230318](https://user-images.githubusercontent.com/117706330/226227844-3def5aa8-19ce-4f6d-9cb5-1fa491040fa8.gif)
+![20230318](https://user-images.githubusercontent.com/117706330/226263753-35cdb593-a2cb-4caa-9fbb-aa6740b138f0.gif)
+
 
 ## 環境構築
 1.　リポジトリをclone
